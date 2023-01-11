@@ -1,0 +1,33 @@
+.main {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main-info__title {
+  margin-top: 100px;
+  max-width: 427px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #000000;
+}
+.main-info__subtitle {
+  max-width: 445px;
+  margin-top: 35px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+}
+.main-img {
+  /* margin-left: 127px; */
+  max-width: 693px;
+  max-height: 598px;
+}
+
+.main-img img {
+  width: 100%;
+  height: 100%;
+}

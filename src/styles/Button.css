@@ -1,0 +1,23 @@
+.btn {
+  font-family: "Mulish";
+  width: 200px;
+  height: 56px;
+  color: #458ff6;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  background: transparent;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* margin */
+  margin-top: 45px;
+}
+
+.primary {
+  color: #fff;
+  background-color: #458ff6;
+}
