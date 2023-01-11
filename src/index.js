@@ -4,6 +4,16 @@ import "./index.css";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
+import Services from "./pages/Services";
+
+const MainPage = () => {
+  return (
+    <>
+      <Home />
+      <Services />
+    </>
+  );
+};
 
 const Applayout = () => {
   return (
@@ -20,7 +30,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <MainPage />,
+      },
+      {
+        path: "/Services",
+        element: <Services />,
       },
     ],
   },

@@ -36,7 +36,7 @@
   padding: 0.5rem 1rem;
 }
 .nav-item:hover {
-  border-bottom: 5px solid #9b59b6;
+  border-bottom: 5px solid #458ff6;
   font-weight: 700;
   opacity: 100%;
   transition: all 0.3s ease-out;
@@ -76,7 +76,7 @@
     top: 100px;
     left: -100%;
     height: calc(100% - 100px);
-    color: #9b59b6;
+    color: #458ff6;
     transition: all 0.5s ease;
   }
   .nav-menu.active {
