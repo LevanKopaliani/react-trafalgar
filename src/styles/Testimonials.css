@@ -1,5 +1,5 @@
 .testimonials {
-  margin: 75px auto;
+  margin: 75px auto 40px auto;
   max-width: 1120px;
   height: 425px;
   background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
@@ -15,5 +15,90 @@
   font-size: 36px;
   line-height: 48px;
   color: white;
-  margin-top: 64px;
+  margin-top: 64px; /* resp remove */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.testimonials-title h1::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 2px;
+  background-color: white;
+  margin-top: 25px;
+}
+.swiper-container {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-container {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.button-prev,
+.button-next {
+  width: 28px;
+  height: 18px;
+}
+.button-prev img,
+.button-next img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination {
+  text-align: center;
+  bottom: 0 !important;
+  width: 275px !important;
+  position: relative !important;
+}
+.pagination span {
+  width: 10px;
+  height: 10px;
+}
+.slider-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.user-container {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.avatar {
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.user-name {
+  font-size: 22px;
+
+  font-weight: 700;
+  color: white;
+}
+.user-description {
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.comment-container {
+  max-width: 450px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 19px;
+  line-height: 30px;
+}
+.swiper-pagination-bullet {
+  background: #5b9bf3 !important;
 }
