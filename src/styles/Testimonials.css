@@ -1,0 +1,19 @@
+.testimonials {
+  margin: 75px auto;
+  max-width: 1120px;
+  height: 425px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+}
+.testimonials-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials-title h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: white;
+  margin-top: 64px;
+}

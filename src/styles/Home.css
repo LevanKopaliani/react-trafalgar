@@ -1,8 +1,11 @@
 .main {
   padding-top: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+.main-info {
+  padding-left: 25px;
 }
 
 .main-info__title {
@@ -30,4 +33,14 @@
 .main-img img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 1160px) {
+  .main {
+    justify-content: space-around;
+    padding-top: 0px;
+  }
+  .main-img {
+    padding-top: 50px;
+  }
 }

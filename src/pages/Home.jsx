@@ -9,7 +9,8 @@ const Home = () => {
         <h1 className="main-info__title">Virtual healthcare for you</h1>
         <p className="main-info__subtitle">
           Trafalgar provides progressive, and affordable healthcare, accessible
-          on mobile and online for everyone
+          on mobile and online
+          <br /> for everyone
         </p>
         <Button text={"Consult today"} tp={"btn primary"} />
       </div>
