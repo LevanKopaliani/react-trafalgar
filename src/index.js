@@ -32,33 +32,36 @@ const Applayout = () => {
   );
 };
 
-const router = createBrowserRouter([
-  {
-    element: <Applayout />,
-    children: [
-      {
-        path: "/*/",
-        element: <MainPage />,
-      },
-      {
-        path: "/*/Services",
-        element: <Services />,
-      },
-      {
-        path: "/*/Apps",
-        element: <Providers />,
-      },
-      {
-        path: "/*/Testimonials",
-        element: <Testimonials />,
-      },
-      {
-        path: "/*/About",
-        element: <About />,
-      },
-    ],
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      element: <Applayout />,
+      children: [
+        {
+          path: "/*/",
+          element: <MainPage />,
+        },
+        {
+          path: "/*/Services",
+          element: <Services />,
+        },
+        {
+          path: "/*/Apps",
+          element: <Providers />,
+        },
+        {
+          path: "/*/Testimonials",
+          element: <Testimonials />,
+        },
+        {
+          path: "/*/About",
+          element: <About />,
+        },
+      ],
+    },
+  ],
+  { basename: "/react-trafalgar/" }
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={router} />);
