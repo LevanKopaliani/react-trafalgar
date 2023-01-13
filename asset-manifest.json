@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-trafalgar/static/css/main.fb661c35.css",
+    "main.js": "/react-trafalgar/static/js/main.e607fc51.js",
+    "static/media/servicesback.png": "/react-trafalgar/static/media/servicesback.ba0a8d6ba60d37a05dfa.png",
+    "static/media/mian-illustration.png": "/react-trafalgar/static/media/mian-illustration.69425c8e8bf8a1d912b6.png",
+    "static/media/cardback.png": "/react-trafalgar/static/media/cardback.5f5626bc7c5aa5822b12.png",
+    "static/media/apps.png": "/react-trafalgar/static/media/apps.3dd2f97239b856128014.png",
+    "static/media/card3.png": "/react-trafalgar/static/media/card3.361de6792aad614044b5.png",
+    "static/media/providers.png": "/react-trafalgar/static/media/providers.313c394a3f5bdef19c6a.png",
+    "static/media/card1.png": "/react-trafalgar/static/media/card1.cc430c25ec0679d61b00.png",
+    "static/media/card2.png": "/react-trafalgar/static/media/card2.47a085f67426ab9a463e.png",
+    "static/media/avatar.png": "/react-trafalgar/static/media/avatar.710e353dfd743e9f8a34.png",
+    "index.html": "/react-trafalgar/index.html",
+    "main.fb661c35.css.map": "/react-trafalgar/static/css/main.fb661c35.css.map",
+    "main.e607fc51.js.map": "/react-trafalgar/static/js/main.e607fc51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb661c35.css",
+    "static/js/main.e607fc51.js"
+  ]
+}
