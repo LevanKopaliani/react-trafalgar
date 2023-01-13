@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-trafalgar/static/css/main.fb661c35.css",
-    "main.js": "/react-trafalgar/static/js/main.acfaa5fb.js",
+    "main.js": "/react-trafalgar/static/js/main.3bfae9e6.js",
     "static/media/servicesback.png": "/react-trafalgar/static/media/servicesback.ba0a8d6ba60d37a05dfa.png",
     "static/media/mian-illustration.png": "/react-trafalgar/static/media/mian-illustration.69425c8e8bf8a1d912b6.png",
     "static/media/cardback.png": "/react-trafalgar/static/media/cardback.5f5626bc7c5aa5822b12.png",
@@ -13,10 +13,10 @@
     "static/media/avatar.png": "/react-trafalgar/static/media/avatar.710e353dfd743e9f8a34.png",
     "index.html": "/react-trafalgar/index.html",
     "main.fb661c35.css.map": "/react-trafalgar/static/css/main.fb661c35.css.map",
-    "main.acfaa5fb.js.map": "/react-trafalgar/static/js/main.acfaa5fb.js.map"
+    "main.3bfae9e6.js.map": "/react-trafalgar/static/js/main.3bfae9e6.js.map"
   },
   "entrypoints": [
     "static/css/main.fb661c35.css",
-    "static/js/main.acfaa5fb.js"
+    "static/js/main.3bfae9e6.js"
   ]
 }
