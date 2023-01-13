@@ -32,7 +32,7 @@ const Testimonials = () => {
               <div className="slider-container">
                 <div className="user-container">
                   <img src={avatar} alt="avatar" className="avatar" />
-                  <div className="user-ifno">
+                  <div className="user-info">
                     <h2 className="user-name">Edward Newgate</h2>
                     <p className="user-description">Founder Circle</p>
                   </div>
@@ -50,7 +50,7 @@ const Testimonials = () => {
               <div className="slider-container">
                 <div className="user-container">
                   <img src={avatar} alt="avatar" className="avatar" />
-                  <div className="user-ifno">
+                  <div className="user-info">
                     <h2 className="user-name">Edward Newgate</h2>
                     <p className="user-description">Founder Circle</p>
                   </div>
@@ -68,7 +68,7 @@ const Testimonials = () => {
               <div className="slider-container">
                 <div className="user-container">
                   <img src={avatar} alt="avatar" className="avatar" />
-                  <div className="user-ifno">
+                  <div className="user-info">
                     <h2 className="user-name">Edward Newgate</h2>
                     <p className="user-description">Founder Circle</p>
                   </div>
@@ -82,7 +82,6 @@ const Testimonials = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
           </Swiper>
         </div>
       </div>

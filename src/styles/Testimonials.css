@@ -1,7 +1,8 @@
 .testimonials {
   margin: 75px auto 40px auto;
   max-width: 1120px;
-  height: 425px;
+  min-height: 425px;
+  padding: 30px 15px;
   background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
   border-radius: 24px;
 }
@@ -15,7 +16,7 @@
   font-size: 36px;
   line-height: 48px;
   color: white;
-  margin-top: 64px; /* resp remove */
+  margin-top: 34px; /* resp remove */
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -30,7 +31,8 @@
   margin-top: 25px;
 }
 .swiper-container {
-  height: 250px;
+  min-height: 250px;
+  padding: 0 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,9 +98,22 @@
 .comment-container {
   max-width: 450px;
   color: rgba(255, 255, 255, 0.9);
+  padding: 15px 0;
   font-size: 19px;
   line-height: 30px;
 }
 .swiper-pagination-bullet {
   background: #5b9bf3 !important;
+}
+
+@media screen and (max-width: 910px) {
+  .swiper-container {
+    padding-top: 20px;
+  }
+  .user-container {
+    flex-direction: column;
+  }
+  .user-info {
+    margin-top: 20px;
+  }
 }

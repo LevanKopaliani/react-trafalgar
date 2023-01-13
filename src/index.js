@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Providers from "./pages/Providers";
 import Testimonials from "./pages/Testimonials";
+import About from "./pages/About";
+import Footer from "./components/Footer";
 
 const MainPage = () => {
   return (
@@ -15,6 +17,7 @@ const MainPage = () => {
       <Services />
       <Providers />
       <Testimonials />
+      <About />
     </>
   );
 };
@@ -24,6 +27,7 @@ const Applayout = () => {
     <>
       <NavBar />
       <Outlet />
+      <Footer />
     </>
   );
 };
@@ -39,6 +43,18 @@ const router = createBrowserRouter([
       {
         path: "/Services",
         element: <Services />,
+      },
+      {
+        path: "/Apps",
+        element: <Providers />,
+      },
+      {
+        path: "/Testimonials",
+        element: <Testimonials />,
+      },
+      {
+        path: "/About",
+        element: <About />,
       },
     ],
   },

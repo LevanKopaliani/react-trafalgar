@@ -1,0 +1,83 @@
+footer {
+  width: 100%;
+  min-height: 432px;
+  padding: 100px 20px 50px 100px;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+.credentials {
+  max-width: 391px;
+  max-height: 201px;
+}
+.credentials-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.credentials-logo span {
+  display: inline-flex;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.credentials-info,
+.cedentials-rights {
+  margin-top: 22px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: white;
+}
+.cedentials-rights {
+  margin-top: 30px;
+  font-size: 16px;
+}
+footer ul li {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.company :first-child,
+.region :first-child,
+.help :first-child {
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex: 1 0;
+  min-width: 405px;
+}
+.footer-links ul {
+  width: 110px;
+}
+
+@media screen and (max-width: 960px) {
+  footer {
+    padding: 50px 20px 30px 50px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .credentials {
+    margin-top: 50px;
+  }
+  .footer-links {
+    min-width: 200px;
+    justify-content: space-between;
+  }
+}

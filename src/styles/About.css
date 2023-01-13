@@ -1,0 +1,36 @@
+.about {
+  margin: 30px auto;
+  padding: 30px 0;
+  background-image: url(../img/cardback.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  gap: 35px;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 56px;
+  font-weight: 700;
+}
+.about-title::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  border-radius: 5px;
+  margin: 26px auto 0 auto;
+}
+
+.cards-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

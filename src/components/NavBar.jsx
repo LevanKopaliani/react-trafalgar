@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../styles/NavBar.css";
 import { IconContext } from "react-icons";
@@ -19,7 +19,9 @@ const NavBar = () => {
       <div className="navbar">
         <div className="navbar-container container">
           <div className="nav-logo">
-            <img src={Logo} alt="Logo" />
+            <Link to="/">
+              <img src={Logo} alt="Logo" />
+            </Link>
           </div>
           <div className="menu-icon" onClick={toogleMenu}>
             {mobileMenu ? <FaTimes /> : <FaBars />}
@@ -38,7 +40,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/"
+                to="/Services"
                 className={({ isActive }) =>
                   isActive ? "nav-links activated" : "nav-links"
                 }
@@ -49,7 +51,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/"
+                to="/Apps"
                 className={({ isActive }) =>
                   isActive ? "nav-links activated" : "nav-links"
                 }
@@ -60,7 +62,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/"
+                to="/Testimonials"
                 className={({ isActive }) =>
                   isActive ? "nav-links activated" : "nav-links"
                 }
@@ -71,7 +73,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/"
+                to="/About"
                 className={({ isActive }) =>
                   isActive ? "nav-links activated" : "nav-links"
                 }
