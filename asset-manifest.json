@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-trafalgar/static/css/main.f1e1bc5b.css",
-    "main.js": "/react-trafalgar/static/js/main.3bfae9e6.js",
+    "main.css": "/react-trafalgar/static/css/main.610e3456.css",
+    "main.js": "/react-trafalgar/static/js/main.563398fc.js",
     "static/media/servicesback.png": "/react-trafalgar/static/media/servicesback.ba0a8d6ba60d37a05dfa.png",
     "static/media/mian-illustration.png": "/react-trafalgar/static/media/mian-illustration.69425c8e8bf8a1d912b6.png",
     "static/media/cardback.png": "/react-trafalgar/static/media/cardback.5f5626bc7c5aa5822b12.png",
@@ -12,11 +12,11 @@
     "static/media/card2.png": "/react-trafalgar/static/media/card2.47a085f67426ab9a463e.png",
     "static/media/avatar.png": "/react-trafalgar/static/media/avatar.710e353dfd743e9f8a34.png",
     "index.html": "/react-trafalgar/index.html",
-    "main.f1e1bc5b.css.map": "/react-trafalgar/static/css/main.f1e1bc5b.css.map",
-    "main.3bfae9e6.js.map": "/react-trafalgar/static/js/main.3bfae9e6.js.map"
+    "main.610e3456.css.map": "/react-trafalgar/static/css/main.610e3456.css.map",
+    "main.563398fc.js.map": "/react-trafalgar/static/js/main.563398fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1e1bc5b.css",
-    "static/js/main.3bfae9e6.js"
+    "static/css/main.610e3456.css",
+    "static/js/main.563398fc.js"
   ]
 }
